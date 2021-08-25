@@ -1,4 +1,6 @@
 plugins:
+
+# In CloudBees Assurance Program
 - id: antisamy-markup-formatter
 - id: cloudbees-casc-api
 - id: cloudbees-github-reporting
@@ -24,3 +26,6 @@ plugins:
 - id: warnings-ng
 - id: workflow-aggregator
 - id: workflow-cps-checkpoint
+
+# NOT in CBAP
+- id: pipeline-utility-steps
